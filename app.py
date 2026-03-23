@@ -69,7 +69,7 @@ def update_chart(selected_region):
         labels={"date": "Date", "sales": "Sales"}
     )
 
-    # Add vertical line (bonus 🔥)
+    # Add vertical line 
     fig.add_vline(
         x="2021-01-15",
         line_dash="dash",
